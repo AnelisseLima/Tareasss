@@ -1,0 +1,15 @@
+html { 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body { 
+    margin: 0;
+    background-color: beige;
+}
+
+header { 
+    background-color: black;
+    color: beige;
+    padding: 3rem 2rem;
+    text-align: center;
+}
