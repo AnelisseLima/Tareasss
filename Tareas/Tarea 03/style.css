@@ -1,18 +1,26 @@
-html { 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 2rem;
 }
 
-body { 
-    
+body {
     background-color: beige;
-    padding: auto;
+    padding: 2rem; 
     border-radius: 1rem;
 }
 
-header { 
+
+header {
     background-color: black;
     color: beige;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem; 
     text-align: center;
+    margin-bottom: 2rem; 
+}
+
+
+img {
+    display: block; 
+    margin: 0 auto 2rem; 
 }
