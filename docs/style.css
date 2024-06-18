@@ -1,0 +1,136 @@
+/* Estilos generales */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem 2rem;
+}
+
+body {
+    background-color: beige;
+    padding: 1.5rem; /* Ajusta el padding según sea necesario */
+    border-radius: 0.5rem;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: darkslategray;
+    padding: 1rem; /* Padding uniforme */
+    text-align: center;
+    margin-bottom: 1rem; /* Espacio inferior entre header y contenido siguiente */
+    border-radius: 0.5rem;
+}
+
+#titulo {
+    color: beige;
+    font-size: 2rem;
+    margin-top: 0; /* Elimina el margen superior */
+    margin-bottom: 0;
+}
+
+/* Estilos para el contenido principal */
+.container {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.content {
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    align-items: flex-start; /* Alinea verticalmente al inicio */
+    margin-bottom: 1.5rem; /* Espacio inferior entre secciones */
+}
+
+.content img {
+    width: 200px; /* Ancho fijo de la imagen */
+    height: 270px; /* Alto fijo de la imagen */
+    margin-right: 1rem; /* Margen a la derecha de la imagen */
+    border-radius: 0.5rem; /* Borde redondeado para la imagen */
+}
+
+.summary {
+    flex: 1; /* Ocupa el espacio restante */
+    display: flex; /* Usa flexbox para alinear contenido verticalmente */
+    flex-direction: column; /* Alinea el contenido en columna */
+    background-color: darkslategray; /* Color de fondo verde para toda la sección */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: beige; /* Color de texto */
+}
+
+.summary h2 {
+    font-size: 1.5rem; /* Tamaño de fuente para el título */
+    margin-top: 0; /* Elimina el margen superior */
+    margin-bottom: 0.5rem; /* Nuevo margen inferior para el título */
+    text-align: justify; /* Alinea el título al inicio del contenedor */
+}
+
+.summary .texto {
+    font-size: 0.85rem; /* Tamaño de fuente para el texto */
+    line-height: 1.3; /* Altura de línea para mejorar la legibilidad */
+    margin-bottom: 0.05rem; /* Margen inferior para el texto (opcional, ajusta según necesites) */
+    text-align: justify;
+    color: beige; /* Color de texto */
+}
+
+/* Estilos para los títulos */
+h1, h2, h5 {
+    color: beige; /* Color de texto para los títulos */
+    background-color: darkslategray; /* Color de fondo para los títulos */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* Estilos para los párrafos de texto */
+p.texto {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem; /* Espacio inferior para los párrafos de texto */
+}
+
+/* Estilos para las listas (ul y ol) */
+ul, ol {
+    font-size: 0.85rem;
+    margin-bottom: 1rem; /* Espacio inferior para las listas */
+}
+
+/* Estilos para los elementos de lista (li) */
+li {
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem; /* Espacio inferior para los elementos de lista */
+}
+
+/* Estilos para los enlaces */
+a {
+    font-size: 0.85rem;
+    color: blue; /* Color de texto para los enlaces */
+    text-decoration: none; /* Sin subrayado para los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón por encima del enlace */
+}
+
+/* Estilos para la sección de formación e idiomas */
+.education-languages {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    margin-bottom: 0.5rem; /* Espacio inferior entre secciones */
+}
+
+.education, .languages {
+    flex-basis: calc(50% - 0.5rem); /* Tamaño base del 50% del contenedor con un margen de 0.5rem */
+}
+
+.education h2, .languages h2 {
+    background-color: darkslategray; /* Color de fondo verde para toda la sección */
+    color: beige; /* Color de texto para los títulos */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+.education p, .languages ul {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem; /* Espacio inferior para los elementos de lista y párrafos de texto */
+}
+footer {
+    font-size: 0.85rem;
+}
